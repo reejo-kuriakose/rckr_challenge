@@ -50,6 +50,3 @@ while top_20:
 
 #Solution
 print (round(distance_sum, 2))
-
-9856000
-1469238.45

@@ -43,7 +43,7 @@ top_20 = top_20[:20]
 distance_sum = 0.0
 while top_20:
     country = top_20.pop(0)
-    for i in top_20:
-        distance_sum = distance_sum + distance(country['latlng'][0], (i['latlng'][0]), country['latlng'][1], i['latlng'][1])
+    for val in top_20:
+        distance_sum = distance_sum + distance(country['latlng'][0], (val['latlng'][0]), country['latlng'][1], val['latlng'][1])
 
 print (round(distance_sum, 2))
